@@ -1,7 +1,7 @@
 create table client(
 	id int primary key auto_increment,	-- 客户id
 	username varchar(100),				-- 用户名字
-	password varchar(100)				-- 用户密码
+	password varchar(100)				-- 密码
 );
 insert into client values(null,'郑俊明','110');
 insert into client values(null,'哈利','220');
